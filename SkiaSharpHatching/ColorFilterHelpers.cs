@@ -25,7 +25,7 @@ namespace SkiaSharpHatching
                 redDifference / 255, 0, 0, 0, background.Red / 255.0f,
                 0, greenDifference / 255, 0, 0, background.Green / 255.0f,
                 0, 0, blueDifference / 255, 0, background.Blue / 255.0f,
-                0, 0, 0, alphaDifference / 255, background.Alpha / 255.0f,
+                alphaDifference / 255, 0, 0, 0, background.Alpha / 255.0f,
             };
 
             var filter = SKColorFilter.CreateColorMatrix(mat);
